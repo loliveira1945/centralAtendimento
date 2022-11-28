@@ -1,0 +1,468 @@
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+a:link, a:hover {
+    text-decoration: none;
+}
+
+input {
+    border: none;
+}
+  
+input:focus {
+    outline: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mainLeft {
+    min-width: 30%;
+    max-width: 25%;
+}
+
+.mainRigth {
+    margin-left: 3%;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.subTitle {
+    padding-top: 10%;
+}
+
+.fieldSearch {
+    background-color: #ebebeb;
+    padding: 4%;
+}
+
+.search {
+    max-width: auto;
+    min-width: 90%;
+    margin-right: auto;
+    min-height: 20%;
+    background-color: #ebebeb;
+    border: none;
+    font-size: 14px;
+}   
+
+.btn.btn-danger {
+    min-width: 100%;
+    min-height: 70%;
+    background-color: #dc3636;
+    border-color: #dc3636;
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.btn.btn-danger:hover, .btn.btn-danger:active {
+    background-color: #b42727;
+    border-color: #b42727;  
+}
+
+.btn-aligned {
+    padding-top: 3%;
+}
+
+.btn.btn-danger.btn-lg {
+    padding: 4%;
+}
+
+.arrow-aligned {
+    float: right;
+}
+
+.buttonAI {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn.btn-success-edited {
+    background-color: #57b44d;
+    color: #ffffff;
+    border-radius: 0%;
+    border: none;
+    margin-left: 1%;
+    min-width: 65px;
+}
+
+.btn.btn-success-edited:hover, .btn.btn-success-edited:active {
+    background-color: #40b634;    
+    color: #ffffff;
+}
+
+.btn.btn-warning-edited {
+    background-color: #dc3636;
+    color: #ffffff;
+    border-radius: 0%;
+    border: none;
+    text-align: center;
+    margin-left: 1%;
+    min-width: 65px;
+}
+
+.btn.btn-warning-edited:hover, .btn.btn-warning-edited:active {
+    background-color: #b42727;    
+    color: #ffffff;
+}
+
+.btn.btn-link.collapsed {
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn.btn-link {
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn.btn-link:hover {
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 0 14px;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+    max-height: 100%;
+    
+}
+
+.contacts-aligned {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 0%;
+    margin-left: 35%;
+    min-width: 20%;
+    max-height: 40%;
+}
+
+.contacts-icon {
+    display: flex;
+    padding-left: 5%;
+    font-size: 40px;
+}
+
+.fa-aligned {
+    padding-left: 30%;
+}
+
+.resetButton {
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+
+.logo-aligned {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 1%;
+}
+
+.img-size {
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.chat-aligned {
+    color: #ffffff;
+    background-color: #dc3636;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-bottom: 12%;
+    border-radius: 70%;
+}
+
+.chat-aligned:hover {
+    color: #ffffff;
+    background-color: #b42727;
+}
+
+/** Formulário de E-mail **/
+
+.mainEmail {
+    min-width: 65%;
+    margin-left: 3%;
+}
+
+.titleEmail {
+    font-weight: bold;
+}
+
+.form-control-category, .form-control-name, .form-control-email, .form-control-file, .form-control-message {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 2%;
+    border: none;
+    background-color: #ebebeb;
+}
+
+.form-file {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn.btn-success-send {
+    background-color: #41b634;
+    color: #ffffff;
+    border-radius: 0%;
+    border: none;
+    font-size: 16px;
+}
+
+.btn.btn-success-send:hover {
+    background-color: #39a12e;
+    color: #ffffff;
+}
+
+.buttonSend {
+    min-width: auto;
+    max-width: 50%;
+    padding-left: 10%;
+}
+
+.alertField {
+    display: flex;
+    min-width: auto;
+    max-width: 50%;
+}
+
+.form-file-send {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.surveyQuestion {
+    padding-top: 5%;
+}
+
+.alertRequired {
+    color: #ff0000;
+    font-size: 12px;
+}
+
+/**Protocolo de E-mail**/
+
+.mainProtocol {
+    min-width: 65%;
+    margin-left: 3%;
+    margin-right: 15%;
+}
+
+.boxProtocol {
+    background-color: #00a651;
+    padding: 2%;
+    text-align: left;
+    color: #ffffff;
+    min-width: 80%;
+    min-height: 80%;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.back {
+    max-width: 75%;
+}
+
+.buttonBack {
+    border: none;
+    background: none;
+    color: #b42727;
+    font-weight: 600;
+    padding: 3%;
+    margin-left: 25%;
+}
+
+.fa-arrow-left {
+    color: #000000;
+}
+
+/**Central Chat**/
+
+.mainChat {
+    border: 1px solid gray;
+    background: #f0f0f0;
+    padding: 0;
+    margin-left: 10%;
+    min-width: 36%;
+    min-height: 20%;
+    max-width: 31%;
+    max-height: 100%;
+    -webkit-box-shadow: 7px 5px 3px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow: 7px 5px 3px rgba(50, 50, 50, 0.5);
+	box-shadow: 7px 5px 3px rgba(50, 50, 50, 0.5);
+}
+
+.headerChat {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: #acacac;
+    color: #ffffff;
+    padding: 1%;
+}
+
+.contentChat {
+    border: none;
+}
+
+.fa-comments {
+    margin-right: 7%;
+}
+
+#hideCentral {
+    border: none;
+    background: none;
+    color: #ffffff;
+    margin-left: 30%;
+}
+
+.btn-info {
+    display: flex;
+    float: right;
+    margin: 3%;
+    font-size: 10px;
+}
+
+.btn-secondary {
+    display: flex;
+    float: left;
+    margin: 3%;
+    font-size: 10px;
+}
+
+.legend-aligned {
+    text-align: end;
+    font-size: 10px;
+}
+
+.message-aligned {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.legend-aligned-operator {
+    text-align: start;
+    font-size: 10px;
+}
+
+.message-aligned-operator {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.btn.btn-outline-secondary {
+    background-color: #666666;
+    color: #ffffff;
+    border-radius: 0%;
+}
+
+.form-control { 
+    border-radius: 0;
+    min-width: 89.7%;
+}
+
+.fieldMessage {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 28px;
+    padding: 1%;
+}
+
+.btn.btn-outline-secondary-edited {
+    background-color: #ffffff;
+    border-bottom: 0.1px solid gray;
+    border-top: 0.1px solid gray;
+}
+
+.finalizeChat {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.bntFinalize {
+    font-size: 13px;
+    border: none;
+    background: none;
+}
+
+.form-check.form-switch {
+    padding: 0%;
+    color: #666666;
+    font-weight: 600;
+}
+
+.form-check-edited {
+    padding: 0%;
+    color: #32bbad;
+    font-weight: 600;
+}
+

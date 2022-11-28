@@ -1,0 +1,115 @@
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+a:link, a:hover, a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+input {
+    border: none;
+}
+  
+input:focus {
+    outline: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 19px;
+    padding-top: 5%;
+}
+
+.subTitle {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.titleInfo {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.btn.btn-danger {
+    min-height: 85px;
+    min-width: 111px;
+    background-color: #dc3636;
+    border-color: #dc3636;
+}
+
+.btn.btn-danger:hover, .btn.btn-danger:active {
+    background-color: #b42727;
+    border-color: #b42727;  
+}
+
+.fieldSearch {
+    background-color: #ebebeb;
+    padding: 2%;
+}
+
+.search {
+    max-width: auto;
+    min-width: 95%;
+    margin-right: auto;
+    min-height: 20%;
+    background-color: #ebebeb;
+    border: none;
+}
+
+.buttonsAI {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid {
+    font-size: 40px;
+}
+
+.fa-magnifying-glass {
+    font-size: 15px;
+}
+
+.btn-aligned {
+    margin-left: 4%;
+}
+
+.titleButton {
+    text-align: center;
+    color: #000000;
+}
+
+.logo-aligned {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 13%;
+    max-width: 80%;
+}
+
+.chat-aligned {
+    color: #ffffff;
+    background-color: #dc3636;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 4%;
+    border-radius: 70%;
+}
+
+.chat-aligned:hover {
+    background-color: #b42727;
+}
